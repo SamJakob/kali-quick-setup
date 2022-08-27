@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# xsession script to set up spice-vdagent resize checker
+# Source: https://superuser.com/a/1565544
+
+if [ -x /usr/bin/spice-vdagent ]; then
+	/usr/bin/spice-vdagent
+	__WM_PATH__/xrandr-loop &
+fi
+
+# Fallback to x-session-manager
+# You might need to modify this depending on your configuration.
+# See: https://wiki.debian.org/XSession#System-wide_configuration
+exec /usr/bin/x-session-manager
