@@ -1,20 +1,21 @@
 # kali-quick-setup
-Scripts to quickly set up a Kali environment.
+Scripts to quickly set my personal Kali Linux environment.  
+Also, refer to [the project Wiki](https://github.com/SamJakob/kali-quick-setup/wiki) for Quick Start guides for various platforms.
 
-Also, refer to the Wiki for Quick Start guides for various platforms.
+---
 
---
-
-I use this with UTM for Mac on an M2 chip.
+I use personally this with UTM for Mac on an M2 chip so it may contain some tools specifically for that purpose (that will be ignored on systems that don't need them).  
 Though, there's no reason this wouldn't be useful with any host system if you want any of the other tools.
 
 ## Features
 Currently, this script handles the following.
 
 - SPICE Guest Tools setup (runs only if `spice-vdagent` is installed)
-	- (Set up auto-resize when VM window resizes)
-- Set up Python 2 with `python2-pip` (for legacy tools)
-- Set up Volatility 2 (contains features not yet in Volatility 3)
+	- (Set up auto-resize when VM window resizes for UTM)
+- Set up Python 2 with `python2-pip`
+	- (for legacy tools)
+- Set up Volatility 2
+	- (contains features not yet in Volatility 3 like dumping Notepad text)
 - Set up `python3-pip`
 - Set up Volatility 3
 
