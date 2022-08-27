@@ -25,6 +25,14 @@ Each feature is installed if is not already installed.
 I may later add functionality to select which features specifically should be installed, but as this
 is primarily for personal use at the moment that is not an immediate goal.
 
+## Usage
+```bash
+git clone https://github.com/SamJakob/kali-quick-setup.git
+cd kali-quick-setup
+chmod +x ./setup.sh
+./setup.sh
+```
+
 ## Notes
 Some notes on how this repository is managed.
 
